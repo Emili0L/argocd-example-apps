@@ -18,3 +18,8 @@ spec:
         name: guestbook-ui
         ports:
         - containerPort: 80
+        env:
+          - name: COBA_TEST
+            value: NICE
+          - name: COBA_USER
+            value: eloetsch
